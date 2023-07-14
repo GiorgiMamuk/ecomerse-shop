@@ -1,13 +1,13 @@
 import React, { useContext } from 'react';
 import Header from './Header/Header';
 
-
+import Products from './MainPage/Products/Products';
 import { BrowserRouter, Route, Routes, Outlet } from 'react-router-dom';
 import Login from './Auth/Login';
 import Registration from './Auth/Registration';
 import Main from './Main';
 import Contact from './Contact/Contact';
-
+import Filtered from './MainPage/FilteredProducts/Filtered';
 import { AuthContext } from './Auth/Context/AuthContext';
 import { CurrentUserContext } from './Auth/Context/Provider/CurrentUserProvider';
 
@@ -16,7 +16,7 @@ const Layout = () => {
     <div>
       <Header />
       <Outlet />
-       
+      
     </div>
   );
 };
@@ -36,7 +36,7 @@ function App() {
               <Route path='/login' element={<Login />}/>
               <Route path='/registration' element={<Registration />}/>
               <Route path='/contact' element={<Contact />}/>
-              
+              <Route path='/filtered/:category' element={<Filtered />} />
               {
               
             }
