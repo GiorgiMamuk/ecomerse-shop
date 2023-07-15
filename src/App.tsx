@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Header from './Header/Header';
-
+import Footer from './Footer/Footer';
 import Products from './MainPage/Products/Products';
 import { BrowserRouter, Route, Routes, Outlet } from 'react-router-dom';
 import Login from './Auth/Login';
@@ -16,7 +16,7 @@ const Layout = () => {
     <div>
       <Header />
       <Outlet />
-      
+      <Footer /> 
     </div>
   );
 };
