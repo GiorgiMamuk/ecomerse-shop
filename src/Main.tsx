@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Products from './MainPage/Products/Products'
 interface Props {}
 
 function Main(props: Props) {
@@ -8,7 +8,7 @@ function Main(props: Props) {
     return (
         <>
         
-        
+        <Products />
         </>
     )
 }
