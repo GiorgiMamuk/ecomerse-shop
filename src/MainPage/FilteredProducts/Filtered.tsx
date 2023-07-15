@@ -26,8 +26,8 @@ function Filtered(props: Props) {
     'https://img.zoommer.ge/zoommer-images/thumbs/0188663_samsung-galaxy-a22-a226fd-5g-4128gb-violet_550.jpeg',
     'https://img.zoommer.ge/zoommer-images/thumbs/0183677_apple-iphone-14-pro-max-1tb-space-black_550.jpeg',
     'https://img.zoommer.ge/zoommer-images/thumbs/0187190_xiaomi-13-lite-5g-8256gb-blue_550.jpeg',
-    'https://img.zoommer.ge/zoommer-images/thumbs/0183332_realme-c33-4128gb-blue_550.jpeg',
-    'https://img.zoommer.ge/zoommer-images/thumbs/0192839_xiaomi-poco-m5s-8256gb-blue_550.jpeg',
+    'https://img.zoommer.ge/zoommer-images/thumbs/0179224_lg-tv-55uq75006lf_550.jpeg',
+    'https://img.zoommer.ge/zoommer-images/thumbs/0183600_samsung-tv-qe65q60baux-eu_550.jpeg',
     'https://img.zoommer.ge/zoommer-images/thumbs/0144699_lenovo-v15-g2-82kb0038ru-intel-core-i7-1165g7-quad-28-ghz-intel-iris-xe-graphics-8gb-ram-ssd-512gb-f_550.jpeg',
     // Add more image URLs as needed
   ];
