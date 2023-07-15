@@ -10,7 +10,7 @@ import Contact from './Contact/Contact';
 import Filtered from './MainPage/FilteredProducts/Filtered';
 import { AuthContext } from './Auth/Context/AuthContext';
 import { CurrentUserContext } from './Auth/Context/Provider/CurrentUserProvider';
-
+import Profile from './Profile/Profile';
 const Layout = () => {
   return (
     <div>
@@ -38,7 +38,9 @@ function App() {
               <Route path='/contact' element={<Contact />}/>
               <Route path='/filtered/:category' element={<Filtered />} />
               {
-              
+              localStorage.getItem('acces-token') && (
+                <Route path="/profile" element={<Profile />} />
+              )
             }
 
 
