@@ -1,0 +1,23 @@
+{
+    "home": "Home",
+    "contactUs": "Contact Us",
+    "profile": "Profile",
+    "login": "Login",
+    "logout": "Logout",
+    "registration": "Registration",
+    "TV":"TV",
+    "Categories":"Categories",
+  
+  
+    "resources": "Resources",
+    "flowbite": "Flowbite",
+    "tailwindCss": "Tailwind CSS",
+    "followUs": "Follow us",
+    "github": "Github",
+    "discord": "Discord",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "flowbiteRights": "© 2023 Flowbite™. All Rights Reserved."
+  }
+  

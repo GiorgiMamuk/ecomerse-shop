@@ -1,3 +1,7 @@
+import i18next from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import enTranslation from './Translations/en.json';
+import kaTranslation from './Translations/ka.json';
 import React, { useContext } from 'react';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
@@ -11,6 +15,19 @@ import Filtered from './MainPage/FilteredProducts/Filtered';
 import { AuthContext } from './Auth/Context/AuthContext';
 import { CurrentUserContext } from './Auth/Context/Provider/CurrentUserProvider';
 import Profile from './Profile/Profile';
+i18next.use(initReactI18next).init({
+  interpolation: { escapeValue: false }, // React already does escaping
+  lng: 'en', // set the default language
+  resources: {
+    en: {
+      translation: enTranslation
+    },
+    ka: {
+      translation: kaTranslation
+    }
+  }
+});
+
 const Layout = () => {
   return (
     <div>

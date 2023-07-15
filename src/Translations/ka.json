@@ -1,0 +1,22 @@
+{
+    "home": "მთავარი",
+    "contactUs": "დაგვეკონტაქტეთ",
+    "profile": "პროფილი",
+    "login": "შესვლა",
+    "logout": "გასვლა",
+    "registration": "რეგისტრაცია",
+    "TV":"ტელევიზორი",
+   "Categories":"კატეგორიები",
+  
+    "resources": "რესურსები",
+    "flowbite": "Flowbite",
+    "tailwindCss": "თეილვაინდ სიესესი",
+    "followUs": "გვერდებში გადასვლა",
+    "github": "გითჰაბი",
+    "discord": "შეუსაბამობა",
+    "legal": "იურიდიული",
+    "privacyPolicy": "კონფიდენციალურობის პოლიტიკა",
+    "termsConditions": "პირობები & პირდაპირი ხელშეკრულება",
+    "flowbiteRights": "© 2023 Flowbite™. ყველა უფლება დაცულია."
+  }
+  

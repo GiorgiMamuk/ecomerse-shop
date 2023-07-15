@@ -6,20 +6,20 @@ interface Props {}
 function Slider(props: Props) {
     const slides = [
         {
-          url: 'https://imageproxy.wolt.com/venue/63230894cffc1afbe2a001dd/1e657dd4-f55e-11ed-90b3-f2b0c05a80e4_b9ed0e0e_f007_11ed_bdb4_42bd159e3e10_wolt_8162.png',
+          url: 'https://blog.olx.com.pk/wp-content/uploads/2022/02/Mobile-phones-1.jpg',
         },
         {
-          url: 'https://mcdonalds.ge/009b13bc15ba-resized.png',
+          url: 'https://www.stuff.tv/wp-content/uploads/sites/2/2021/04/Stuff-Best-Laptop-Lead.png?w=1080',
         },
         {
-          url: 'https://mcdonalds.ge/627ef67f422a-resized.png',
+          url: 'https://media.istockphoto.com/id/153681240/photo/young-couple-in-consumer-electronics-store-buy-tv.jpg?s=612x612&w=0&k=20&c=c9JZ5EWIIvCDo3HdR8ZY_tOALryzOgZexTcA1b-1uG0=',
         },
     
         {
-          url: 'https://th.bing.com/th/id/OIP.5HcsluEet4mfEXRO05AnZQHaF7?pid=ImgDet&rs=1',
+          url: 'https://www.shutterstock.com/shutterstock/photos/1298437216/display_1500/stock-photo-moscow-russia-january-modern-tvs-in-the-samsung-brand-store-1298437216.jpg',
         },
         {
-          url: 'https://th.bing.com/th/id/OIP.5HcsluEet4mfEXRO05AnZQHaF7?pid=ImgDet&rs=1',
+          url: 'https://hips.hearstapps.com/hmg-prod/images/android-phones-1651081480.jpg?crop=0.950xw:0.632xh;0.0288xw,0.175xh&resize=1200:*',
         },
       ];
 
